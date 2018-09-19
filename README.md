@@ -58,9 +58,9 @@ To add the Windows Form App add the following to the Application section
 
 ```xml
 <Extensions>
-<uap:Extension Category="windows.protocol" Executable="DesktopExtensions/WindowsFormsApp1.exe" EntryPoint="Windows.FullTrustApplication">
-  <uap:Protocol Name="pwadesktopextension" />
-</uap:Extension>
+  <uap:Extension Category="windows.protocol" Executable="DesktopExtensions/WindowsFormsApp1.exe" EntryPoint="Windows.FullTrustApplication">
+    <uap:Protocol Name="pwadesktopextension" />
+  </uap:Extension>
 </Extensions
 ```
 
