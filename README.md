@@ -44,6 +44,8 @@ I needed to update the min/max SDK version of the PWA project to 17134. Experime
 I set the output dir of the Windows Form app to the DesktopExtensions folder of the PWA project. I then added these files to the PWA project. 
 This simplified the packaging of the Windows Form app files.
 
+Interactivity between the PWA UWP app and the Desktop Extension is left as an exercise for the developer
+
 Look at the package.appxmanifest file of the PWA project. 
 
 You will need to add the following to the Package:
